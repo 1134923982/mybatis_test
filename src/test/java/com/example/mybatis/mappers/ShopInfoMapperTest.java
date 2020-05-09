@@ -18,7 +18,7 @@ class ShopInfoMapperTest {
         List<ShopInfo> allShopInfo = shopInfoMapper.getAllShopInfo();
         System.out.println(allShopInfo);
     }
-
+//add user
     @Test void addShopInfo(){
         ShopInfo shopInfo = new ShopInfo();
         List<Integer> scope = new ArrayList<>();
